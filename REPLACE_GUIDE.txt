@@ -1,0 +1,94 @@
+=====================================================
+  PORTFOLIO — FIELDS TO REPLACE WITH YOUR DETAILS
+=====================================================
+
+Below is a complete list of every placeholder you need to update,
+organized by file. Search for "REPLACE" in each file to find them quickly.
+
+
+-----------------------------------------------------
+1. src/components/Hero.tsx
+-----------------------------------------------------
+- Your profile photo     → Replace the image file at: src/assets/profile-avatar.jpg
+- Resume PDF             → Place your resume at: public/resume.pdf (the download button links here)
+
+
+-----------------------------------------------------
+2. src/components/About.tsx
+-----------------------------------------------------
+- Graduation year        → Currently "2024" — update to your actual year
+- Project count           → Currently "15+" — update to your real number
+
+
+-----------------------------------------------------
+3. src/components/Projects.tsx
+-----------------------------------------------------
+For EACH of the 6 projects, update:
+- Project title           → e.g. "ShopKart — E-Commerce Platform"
+- Project description     → What you built and what you learned
+- Technologies array      → The tech stack you used
+- Demo URL                → Your live demo link (or keep "#" if none)
+- GitHub URL              → Your GitHub repo link (or keep "#" if none)
+
+
+-----------------------------------------------------
+4. src/components/CodingProfiles.tsx
+-----------------------------------------------------
+- LeetCode username       → Replace "your-leetcode-username"
+- HackerRank username     → Replace "your-hackerrank-username"
+- CodeChef username       → Replace "your-codechef-username"
+- Codeforces username     → Replace "your-codeforces-username"
+- InterviewBit username   → Replace "your-interviewbit-username"
+
+
+-----------------------------------------------------
+5. src/components/Certifications.tsx
+-----------------------------------------------------
+For EACH of the 5 certifications, update:
+- Certification title     → e.g. "The Complete Web Development Bootcamp"
+- Issuer / Platform       → e.g. "Udemy", "Coursera", "freeCodeCamp"
+- Date / Year             → e.g. "2024"
+- Credential URL          → Verification link (or keep "#" if none)
+
+
+-----------------------------------------------------
+6. src/components/Contact.tsx
+-----------------------------------------------------
+- Email address           → Replace "your-email@gmail.com" (appears twice: value + href)
+- Phone number            → Replace "+91 XXXXX XXXXX" and "tel:+91XXXXXXXXXX"
+- Location                → Replace "Your City, India"
+- GitHub URL              → Replace "https://github.com/your-username"
+- LinkedIn URL            → Replace "https://linkedin.com/in/your-username"
+- Twitter URL             → Replace "https://twitter.com/your-username"
+- Email mailto            → Replace "mailto:your-email@gmail.com"
+
+
+-----------------------------------------------------
+7. src/components/Footer.tsx
+-----------------------------------------------------
+- GitHub URL              → Replace "https://github.com/your-username"
+- LinkedIn URL            → Replace "https://linkedin.com/in/your-username"
+- Email mailto            → Replace "mailto:your-email@gmail.com"
+
+
+-----------------------------------------------------
+8. index.html
+-----------------------------------------------------
+- Page title              → Currently "Voruganti Lokesh — MERN Stack Developer | Portfolio"
+- Meta description        → Update if you want a different SEO description
+- OG / Twitter meta tags  → Update titles and descriptions if needed
+
+
+-----------------------------------------------------
+9. Files to upload
+-----------------------------------------------------
+- Profile photo           → Replace: src/assets/profile-avatar.jpg
+- Resume PDF              → Add to: public/resume.pdf
+
+
+=====================================================
+  HOW TO FIND PLACEHOLDERS QUICKLY
+=====================================================
+Search for "REPLACE" across the codebase — every placeholder
+has a comment like /* REPLACE: ... */ next to it.
+=====================================================
