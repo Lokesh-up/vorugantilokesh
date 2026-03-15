@@ -50,10 +50,7 @@ const Footer = () => {
         <div className="w-full h-px bg-gradient-to-r from-transparent via-border to-transparent mb-6" />
 
         <p className="text-sm text-muted-foreground flex items-center justify-center gap-1 mb-2">
-          © {currentYear} Voruganti Lokesh. Built with <Heart size={14} className="text-destructive" /> using React & Tailwind CSS
-        </p>
-        <p className="text-xs text-muted-foreground/60">
-          Built with React and Tailwind CSS.
+          © {currentYear} Voruganti Lokesh. Built using React & Tailwind CSS
         </p>
       </div>
     </footer>

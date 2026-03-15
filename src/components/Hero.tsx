@@ -5,7 +5,7 @@ import LinkedInIcon from "@/components/icons/LinkedInIcon";
 import { motion, AnimatePresence } from "framer-motion";
 import profileAvatar from "@/assets/profile-avatar.jpg";
 
-const titles = ["Full Stack Developer", "React Developer", "Backend Developer"];
+const titles = ["Full Stack Developer", "Python Programmer", "AI Agent Developer"];
 
 const Hero = () => {
   const [titleIndex, setTitleIndex] = useState(0);

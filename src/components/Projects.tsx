@@ -2,50 +2,50 @@ import { ExternalLink } from "lucide-react";
 import GitHubIcon from "@/components/icons/GitHubIcon";
 import { motion } from "framer-motion";
 import { useScrollReveal } from "@/hooks/useScrollReveal";
-import projectQr from "@/assets/project-qr-generator.jpg";
-import projectYt from "@/assets/project-yt-downloader.jpg";
-import projectMusic from "@/assets/project-music-app.jpg";
-import projectCf from "@/assets/project-cf-tracker.jpg";
+import projectFood from "@/assets/projects/kids-eat-well.png";
+import projectCrypto from "@/assets/projects/crypto-suite.png";
+import projectQr from "@/assets/projects/project-qr-generator.jpg";
+import projectYt from "@/assets/projects/project-yt-downloader.jpg";
 
 const projects = [
   {
-    title: "QR Code Generator",
+    title: "Kid Eats Well Plans",
     description:
-      "A React application that generates QR codes instantly for any text or URL with download and share options.",
-    technologies: ["React"],
-    demoUrl: "#",
-    githubUrl: "#",
-    image: projectQr,
+      "A nutrition-focused web application that helps parents discover healthy meal plans and recipes for kids based on age groups and dietary needs.",
+    technologies: ["React", "TypeScript", "Tailwind CSS"],
+    demoUrl: "https://kid-eats-well-plans.vercel.app",
+    githubUrl: "https://github.com/Lokesh-up/kid-eats-well-plans",
+    image: projectFood,
     accent: "from-primary to-secondary",
+  },
+  {
+    title: "Crypto Suite",
+    description:
+      "A web-based cryptography toolkit that demonstrates multiple encryption and hashing algorithms with an interactive interface for secure text encoding and decoding.",
+    technologies: ["JavaScript", "HTML", "CSS"],
+    demoUrl: "https://crypto-suite-sigma.vercel.app",
+    githubUrl: "https://github.com/Lokesh-up/crypto-suite",
+    image: projectCrypto,
+    accent: "from-secondary to-accent",
   },
   {
     title: "YouTube Audio Downloader",
     description:
-      "A web application that allows users to paste a YouTube link and download the audio in high quality.",
-    technologies: ["React"],
+      "A web application that allows users to paste a YouTube video link and download the audio track with progress tracking and format selection.",
+    technologies: ["React", "Node.js", "Express"],
     demoUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/Lokesh-up/youtube-audio-downloader",
     image: projectYt,
-    accent: "from-secondary to-accent",
-  },
-  {
-    title: "Music Streaming App",
-    description:
-      "A full-stack music streaming platform where users can browse, search, and listen to songs stored in a database.",
-    technologies: ["React", "Node.js", "MongoDB"],
-    demoUrl: "#",
-    githubUrl: "#",
-    image: projectMusic,
     accent: "from-accent to-primary",
   },
   {
-    title: "Codeforces Student Tracker",
+    title: "QR Code Generator",
     description:
-      "A dashboard that tracks student progress on Codeforces including ratings, contests, and problem-solving statistics.",
-    technologies: ["React", "Node.js", "MongoDB"],
+      "A React-based tool that generates QR codes instantly for any text or URL and allows users to download the generated QR code image.",
+    technologies: ["React", "JavaScript"],
     demoUrl: "#",
-    githubUrl: "#",
-    image: projectCf,
+    githubUrl: "https://github.com/Lokesh-up/qrcode-generator",
+    image: projectQr,
     accent: "from-primary to-accent",
   },
 ];
