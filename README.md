@@ -3,7 +3,7 @@
 This is my personal developer portfolio built with React, Vite and Tailwind CSS.
 
 Live Website:
-https://lokesh-portfolio-splash.vercel.app
+https://vorugantilokesh.vercel.app
 
 ## Tech Stack
 React
